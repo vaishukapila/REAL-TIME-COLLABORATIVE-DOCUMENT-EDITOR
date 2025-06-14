@@ -1,0 +1,42 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top left, #d0f0ff, #fef6ff); /* Softer pastel gradient */
+  color: #333; /* Dark gray for easier reading */
+  padding: 20px;
+  margin: 0;
+}
+
+#editor-container {
+  height: 300px;
+  background: #fdfdfd; /* Light background */
+  border: 2px solid #00bcd4;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px #00bcd4;
+  font-size: 16px;
+  overflow-y: auto;
+  color: #222; /* Dark text on light background */
+}
+
+button {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 0 10px #ff80ab, 0 0 20px #ff80ab;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f06292;
+  box-shadow: 0 0 15px #f06292, 0 0 25px #f06292;
+}
+
+h1, h2, h3 {
+  text-shadow: 0 0 4px #00bcd4;
+}
